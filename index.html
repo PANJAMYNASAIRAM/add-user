@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- ✅ Your CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div classname="container"> 
+        <h1>Add User</h1>
+        <form id="addUserForm">
+            <div>
+                <label>Name</label>
+                <div>
+                    <input typr="text" id="name" />
+                    <p id="nameErrMsg"></p>
+                </div>
+            </div>
+            <div>
+                <label>Email</label>
+                <div>
+                    <input typr="text" id="email" />
+                    <p id="emailErrMsg"></p>
+                </div>
+            </div>
+            <button class="bg-primary">Submit</button>
+        </form>
+    </div> 
+        <script src="script.js"></script>
+</body>
+
+</html>
